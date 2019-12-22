@@ -48,5 +48,8 @@
     "customize-cra": "^0.9.1",
     "flow-bin": "^0.114.0",
     "react-app-rewired": "^2.1.5"
+  },
+  "resolutions": {
+    "**/**/serialize-javascript": "^2.1.1"
   }
 }
