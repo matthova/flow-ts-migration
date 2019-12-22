@@ -1,12 +1,21 @@
-import React from 'react';
+// @flow
+
+import React, { type Node } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { OtherFile } from './OtherFile';
 
-function App() {
+const numberToString = (input: number): string => {
+  return String(input);
+}
+
+function App(): Node {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>{numberToString(5)}</p>
+        <OtherFile />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
