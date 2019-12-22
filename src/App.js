@@ -3,7 +3,7 @@
 import React, { type Node } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { OtherFile } from './OtherFile';
+import { OtherFile } from './ts-folder/OtherFile';
 
 const numberToString = (input: number): string => {
   return String(input);
